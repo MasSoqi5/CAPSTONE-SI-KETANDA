@@ -318,7 +318,13 @@ Di panel ini para pengguna dihadapkan untuk mengisi beberapa hal termasuk nama,u
 
 ### Registrasi Form
 
+<img width="1012" height="787" alt="image" src="https://github.com/user-attachments/assets/91ff49ab-a7d7-43ee-9c2c-03cadd384ac9" />
+
+Di Panel ini para pengguna Baru akan melakukan registrasi dengan menginput nama,username,serta Password baru mereka
+
 ### Welcome form
+
+
 
 ### Dashboard Petani
 
