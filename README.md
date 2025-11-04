@@ -300,21 +300,31 @@ Disini Library yang kami Gunakan adalah Jar serta Absolute Konektor untuk secara
 
 ## Cara Menggunakan Program 🌳
 
+### Langkah Pertama
+
+### Langkah Kedua
+
+### Langkah Ketiga
+
 -----
 
 ## Tampilan GUI 🍀
 
-Login form
+### Login form
 
-Dashboard Petani
+### Registrasi Form
 
-Dashboard Distributor
+### Welcome form
 
-Dashboard Admin
+### Dashboard Petani
 
-Dashboard Pemerintah
+### Dashboard Distributor
 
-Dashboard Customers
+### Dashboard Admin
+
+### Dashboard Pemerintah
+
+### Dashboard Customers
 
 -----
 
