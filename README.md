@@ -209,7 +209,7 @@ Sistem ini memiliki fitur utama:
 
 - Interface
 
-*Interface*, berperan sebagai kontrak yang menentukan metode apa saja yang harus diimplementasikan oleh class tanpa menentukan cara implementasinya. Di program ini, class interface bernama IWelcomeAction diimplementasikan di MainFrame.
+*Interface*, berperan sebagai kontrak yang menentukan metode apa saja yang harus diimplementasikan oleh class tanpa menentukan cara implementasinya. Di program ini, class interface bernama KoneksiDatabase diimplementasikan di method Controller.
 
 <img width="706" height="486" alt="image" src="https://github.com/user-attachments/assets/10f45797-3238-4d9a-ac83-67a7cff75573" />
 
@@ -221,12 +221,79 @@ Sistem ini memiliki fitur utama:
 
 <img width="566" height="902" alt="image" src="https://github.com/user-attachments/assets/991f0a06-c411-4b19-9952-f8ced36ae765" />
 
+### Controller
+Disini ada class yang fungsinya untuk memainkan serta menjembatani dari PHPMyadmin ke Netbeans agar terhubung dan bekerja secara baik
+
+- ControllerDatabase
+- KoneksiDatabase
+- TestDatabase
+
+### Model
+Disinilah Logika dari jalannya platform kami bergulir yang dimana sesuai Erdish maka kami juga memiliki Kelas berupa
+
+- Admin
+- Customer
+- Distribusi
+- Distributor
+- Panen
+- Pemerintah
+- Petani
+- Transaksi
+- User
+
+### View 
+Disinilah GUI dari Platform dijalankan dan juga sebagai interface nyata dan juga kelas yang ada juga untuk GUI pertama yang pemakai lihat
+
+- LoginForm
+- RegistrasiForm
+- WelcomeForm
+
+### View Distributor
+Disinilah GUi dari apa yang ditampilkan khusus distributor kelasnya antara lain
+
+- DBDistributorLihatStokPanen
+- DBDistributorRiwayatDistribusi
+- DBDistributorTambahDistribusi
+- DashboardDistributor
+
+### View Pemerintah
+Disinilah GUi dari apa yang ditampilkan khusus pemerintah kelasnya antara lain
+
+- DBPemerintahCetakLaporan
+- DBPemerintahDataKomoditas
+- DBPemerintahDataWilayah
+- dashboardPemerintah
+
+### View Admin
+Disinilah GUi dari apa yang ditampilkan khusus Admin kelasnya antara lain
+
+- DBAdminKelolaKomoditas
+- DBAdminKelolaLaporan
+- DBAdminKelolaUser
+- DBAdminKelolaWilayah
+- DashboardAdmin
+
+### View Customer
+Disinilah GUi dari apa yang ditampilkan khusus cuistomers kelasnya antara lain
+
+- DBCustomerLihatKomoditas
+- DBCustomerLihatRiwayatTransaksi
+- DashaboardCustomer
+
+### View Petani
+Disinilah GUi dari apa yang ditampilkan khusus petani kelasnya antara lain
+
+- DBKeluhan
+- DBPetaniDataPanen
+- DashboardPetani
 
 -----
 
 ## Library atau Framework yang digunakan 🌾
 
-<img width="317" height="181" alt="image" src="https://github.com/user-attachments/assets/ddc27797-f139-4901-9769-b73bd29a0137" />
+<img width="515" height="156" alt="image" src="https://github.com/user-attachments/assets/8010e380-83d2-4162-b844-e0e4f008d57c" />
+
+Disini Library yang kami Gunakan adalah Jar serta Absolute Konektor untuk secara jelas menghubungkan antara Netbeans menuju PHPMyAdmin yang dikelola didalam XAMPP
 
 
 -----
