@@ -1,4 +1,4 @@
-# CAPSTONE-SI-KETANDA
+# CAPSTONE SBD & PBO SI-KETANDA
 
 <img width="1125" height="482" alt="image" src="https://github.com/user-attachments/assets/81f85afd-e007-42d4-9c19-3a106ea1c6c3" />
 
@@ -183,22 +183,35 @@ Sistem ini memiliki fitur utama:
 
 *Encapsulation*, berarti membungkus data dan fungsi dalam satu kesatuan (class) untuk menjaga keamanan dan mengontrol akses. Atribut dibuat private dengan getter & setter untuk mengontrol akses data. Penerapan tersebut banyak di sebagain besar view.
 
+<img width="669" height="251" alt="image" src="https://github.com/user-attachments/assets/9705c7b8-927b-4ae4-a5e2-b688bd3c0aa2" />
+
+
 - Abstraction
 
 *Abstraction*, yaitu menyembunyikan detail kompleks dari pengguna dan hanya menampilkan fitur penting agar sistem lebih mudah dipahami. Kelas ini menyediakan kerangka dasar (method showInfo() abstrak) tanpa implementasi.
+
+<img width="247" height="46" alt="image" src="https://github.com/user-attachments/assets/6ebdf2a0-ee19-4456-a6a2-f52a04323cc9" />
+
 
 - Inheritance
 
 *Inheritance*, memungkinkan suatu class mewarisi atribut dan metode dari class lain sehingga kode lebih efisien dan terstruktur. Misalnya, class User berperan sebagai class induk yang menyimpan atribut umum seperti id, username, password, dan role. Kemudian, class AdminPanel dan UserPanel dijadikan subclass yang mewarisi BasePanel.
 
+<img width="288" height="17" alt="image" src="https://github.com/user-attachments/assets/3ed39253-e848-4080-943c-30b8998af2d6" />
+
+
 - Polymorphism
 
 *Polymorphism*, memberi kemampuan objek untuk memiliki banyak bentuk atau perilaku berbeda tergantung konteks penggunaannya. Metode yang sama (create, read, dll) dapat diimplementasikan dengan perilaku berbeda di class lain. Misalnya di kelas Interface
+
+<img width="535" height="69" alt="image" src="https://github.com/user-attachments/assets/83d882bc-76d6-4317-b49f-be7b0da32334" />
+
 
 - Interface
 
 *Interface*, berperan sebagai kontrak yang menentukan metode apa saja yang harus diimplementasikan oleh class tanpa menentukan cara implementasinya. Di program ini, class interface bernama IWelcomeAction diimplementasikan di MainFrame.
 
+<img width="706" height="486" alt="image" src="https://github.com/user-attachments/assets/10f45797-3238-4d9a-ac83-67a7cff75573" />
 
 
 
@@ -206,9 +219,15 @@ Sistem ini memiliki fitur utama:
 
 ## Struktur Folder/Package/MVC 🌴
 
+<img width="566" height="902" alt="image" src="https://github.com/user-attachments/assets/991f0a06-c411-4b19-9952-f8ced36ae765" />
+
+
 -----
 
 ## Library atau Framework yang digunakan 🌾
+
+<img width="317" height="181" alt="image" src="https://github.com/user-attachments/assets/ddc27797-f139-4901-9769-b73bd29a0137" />
+
 
 -----
 
