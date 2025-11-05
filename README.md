@@ -8,8 +8,6 @@
 
 Sebuah sistem informasi berbasis digital yang dirancang untuk mendukung ketahanan pangan di beberapa wilayah dengan cara menghubungkan petani, distributor, pemerintah, dan customer dalam satu platform terpadu. Sistem ini mencakup pendataan hasil panen, distribusi pangan, pelaporan keluhan, serta fitur akses pasar sederhana antar pengguna.
 
------
-
 ## Deskripsi Singkat Program🍃
 
 SI-KETANDA merupakan Aplikasi yang dirancang untuk membantu aktivitas petani dalam pencatatan panen, memberikan keluhan kepada admin yang akan disalurkan kepada pemerintah. Juga membantu pencatatan distribusi pangan oleh distributor menuju pasar yang akan dibeli oleh customers. Sistem ini mengintegrasikan data pengguna petani, pemerintah, distributor, dan konsumen dalam satu kesatuan basis data yang terstruktur ke dalam satu basis data terpusat menggunakan *MYSQL (XAMPP)*. Aplikasi ini juga dibangun dengan bahasa *Java (NETBEANS IDE)* agar mudah dikembangkan serta efisien.
@@ -25,8 +23,6 @@ Petani : selain registrasi. Para petani juga akan bisa menambahkan data hasil pa
 Distributor : setelah mengisi registrasi. Distributor dapat melakukan pengelolaan data distribusi serta mengubah harga & Stok saat dipasarkan.
 
 Customers : Setelah melakukan registrasi, Customers dapat melihat daftar komoditas pangan yang ada untuk juga bisa melakukan pembelian komoditas.
-
------
 
 ## Fitur Program 🥬
 
@@ -45,8 +41,6 @@ Didalam Platform kami memiliki keunggulan berupa
 * User baru dapat melakukan *registrasi* dengan mengisi username, password, dan peran (role) yang sesuai.
 * Sistem akan memeriksa apakah username sudah digunakan.
 * Jika belum, sistem menyimpan data user baru ke dalam database dan menampilkan pesan *“Registrasi berhasil, silakan login kembali.”*
-
----
 
 🏛️ *2. Fitur Pemerintah*
 
@@ -68,8 +62,6 @@ Didalam Platform kami memiliki keunggulan berupa
 
 * Pemerintah dapat menambah dan mengubah data jenis komoditas pangan untuk mengatur jenis barang yang diproduksi, didistribusikan, dan dijual dalam sistem.
 
----
-
  ⚙️ *3. Fitur Admin*
 
 ### 👥 *Kelola Data User*
@@ -88,8 +80,6 @@ Didalam Platform kami memiliki keunggulan berupa
 ### 📋 *Melihat Laporan*
 
 * Admin dapat mengambil data laporan dari database untuk ditampilkan atau digunakan sebagai bahan evaluasi.
-
----
 
 👨‍🌾 *4. Fitur Petani*
 
